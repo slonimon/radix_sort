@@ -99,8 +99,8 @@ __Логика описанной выше архитектуры актуаль
     * dark_core.sv
     * g_slice.sv
     * h_slice.sv __[1]__
-    * light_core.sv
-    * selection_block.sv __[2]__
+    * light_core.sv __[2]__
+    * selection_block.sv __[3]__
     * sort_pkg.sv
     * sort_stage.sv
     * sort_top.sv
@@ -111,8 +111,8 @@ __Логика описанной выше архитектуры актуаль
     * dark_core.sv
     * g_slice.sv
     * h_slice.sv __[1]__
-    * light_core.sv
-    * selection_block.sv __[2]__
+    * light_core.sv __[2]__
+    * selection_block.sv __[3]__
     * sort_pkg.sv
     * sort_stage.sv
     * sort_top.sv
@@ -126,7 +126,7 @@ __Логика описанной выше архитектуры актуаль
   * ref_model_radix_sort_min.m
 
 
-Выше приведена общая структура проекта [1] и [2] обозначают модули отличные в двух реализациях. 
+Выше приведена общая структура проекта [1], [2] и [3] обозначают модули отличные в двух реализациях. 
 
 Для отладки проекта сделаны референсные модели для min/max алгоритмов radix-sort, а так же код radix_sort_main_ref_model.m для формирования тестовых файлов .txt формата. 
 
@@ -160,9 +160,9 @@ __Логика описанной выше архитектуры актуаль
     
 </tr>
 <tr >
-    <td colspan="2">24921</td>
-    <td colspan="2">7129</td>
-    <td colspan="2">305,338</td> 
+    <td colspan="2">25070</td>
+    <td colspan="2">7628</td>
+    <td colspan="2">788 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -173,15 +173,15 @@ __Логика описанной выше архитектуры актуаль
 </tr>
 <tr >
     <td colspan="1">WNS</td>
-    <td colspan="2"></td>
+    <td colspan="2">-13,668</td>
     <td colspan="1">TNS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">-73347,132</td> 
 </tr>
 <tr >
     <td colspan="1">WHS</td>
-    <td colspan="2"></td>
+    <td colspan="2">0,041</td>
     <td colspan="1">THS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">0</td> 
 </tr>
 
 <tr style="background-color: #ffd966;">
@@ -197,9 +197,9 @@ __Логика описанной выше архитектуры актуаль
     
 </tr>
 <tr >
-    <td colspan="2">377</td>
-    <td colspan="2">149</td>
-    <td colspan="2">176,201</td> 
+    <td colspan="2">7004</td>
+    <td colspan="2">2314</td>
+    <td colspan="2">459 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -210,15 +210,15 @@ __Логика описанной выше архитектуры актуаль
 </tr>
 <tr >
     <td colspan="1">WNS</td>
-    <td colspan="2"></td>
+    <td colspan="2">-8,186</td>
     <td colspan="1">TNS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">-14498,413</td> 
 </tr>
 <tr >
     <td colspan="1">WHS</td>
-    <td colspan="2"></td>
+    <td colspan="2">0,621</td>
     <td colspan="1">THS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">0</td> 
 </tr>
 
 <tr style="background-color: #ffd966;">
@@ -234,9 +234,9 @@ __Логика описанной выше архитектуры актуаль
     
 </tr>
 <tr >
-    <td colspan="2">209</td>
-    <td colspan="2">92</td>
-    <td colspan="2">98,111</td> 
+    <td colspan="2">1974</td>
+    <td colspan="2">736</td>
+    <td colspan="2">260 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -247,15 +247,15 @@ __Логика описанной выше архитектуры актуаль
 </tr>
 <tr >
     <td colspan="1">WNS</td>
-    <td colspan="2"></td>
+    <td colspan="2">-6,025</td>
     <td colspan="1">TNS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">-3138,786</td> 
 </tr>
 <tr >
     <td colspan="1">WHS</td>
-    <td colspan="2"></td>
+    <td colspan="2">0,621</td>
     <td colspan="1">THS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">0</td> 
 </tr>
 
 <tr style="background-color: #ffd966;">
@@ -273,7 +273,7 @@ __Логика описанной выше архитектуры актуаль
 <tr >
     <td colspan="2">377</td>
     <td colspan="2">149</td>
-    <td colspan="2">176,201</td> 
+    <td colspan="2">176,201 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -325,7 +325,7 @@ _____________
 <tr >
     <td colspan="2">25127</td>
     <td colspan="2">7627</td>
-    <td colspan="2">671</td> 
+    <td colspan="2">671 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -362,7 +362,7 @@ _____________
 <tr >
     <td colspan="2">7034</td>
     <td colspan="2">2316</td>
-    <td colspan="2">375</td> 
+    <td colspan="2">375 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -397,9 +397,9 @@ _____________
     
 </tr>
 <tr >
-    <td colspan="2">202</td>
-    <td colspan="2">90</td>
-    <td colspan="2">75,128</td> 
+    <td colspan="2">2214</td>
+    <td colspan="2">807</td>
+    <td colspan="2">256 (1 stage)</td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -410,15 +410,15 @@ _____________
 </tr>
 <tr >
     <td colspan="1">WNS</td>
-    <td colspan="2"></td>
+    <td colspan="2">-5,629</td>
     <td colspan="1">TNS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">-3231,633</td> 
 </tr>
 <tr >
     <td colspan="1">WHS</td>
-    <td colspan="2"></td>
+    <td colspan="2">0,042</td>
     <td colspan="1">THS</td>
-    <td colspan="2"></td> 
+    <td colspan="2">0</td> 
 </tr>
 
 <tr style="background-color: #ffd966;">
