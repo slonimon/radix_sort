@@ -273,9 +273,9 @@ __Логика описанной выше архитектуры актуаль
     
 </tr>
 <tr >
-    <td colspan="2">377</td>
-    <td colspan="2">149</td>
-    <td colspan="2">176,201 (1 stage)</td> 
+    <td colspan="2"></td>
+    <td colspan="2"></td>
+    <td colspan="2"></td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
@@ -436,9 +436,9 @@ _____________
     
 </tr>
 <tr >
-    <td colspan="2">24921</td>
-    <td colspan="2">7129</td>
-    <td colspan="2">305,338</td> 
+    <td colspan="2"></td>
+    <td colspan="2"></td>
+    <td colspan="2"></td> 
 </tr>
 <tr>
     <td colspan="6"><strong>Timing Summary</strong></td>
