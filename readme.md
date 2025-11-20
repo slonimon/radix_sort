@@ -491,12 +491,32 @@ _____________
  >Рис. 12. Report_Utilization проекта [M = 8, W = 8, N = 9]
 
 
-  >![WNS_reg_N8]( WNS_reg_N8.png) 
+ >![WNS_reg_N8]( WNS_reg_N8.png) 
  >Рис. 13. Результаты временного анализа (критический путь) проекта [M = 16, W = 16, N = 8]
 
 
  >![Timing_Summary_N8](Report_Utilization_N8.png) 
  >Рис. 14. Report_Utilization проекта [M = 16, W = 16, N = 8]
+
+
+ >![WNS_reg_N6]( M32_N6_W4_time_330.png) 
+ >Рис. 15. Результаты временного анализа проекта [M = 32, W = 4, N = 6] (fclk = 330 MHz)
+ >![Timing_Summary_N6](M32_N6_W4_Utilization_330.png) 
+ >Рис. 16. Report_Utilization проекта [M = 32, W = 4, N = 6] (fclk = 330 MHz)
+
+ >![WNS_reg_N6]( M8_N6_W4_time_330.png) 
+ >Рис. 17. Результаты временного анализа проекта [M = 8, W = 4, N = 6] (fclk = 330 MHz)
+ >![Timing_Summary_N6](M8_N6_W4_Utilization_330.png) 
+ >Рис. 18. Report_Utilization проекта [M = 8, W = 4, N = 6] (fclk = 330 MHz)
+
+ >![Timing_Summary_N6](M8_N6_W4_crit_330.png) 
+ >Рис. 19. Крит. путь проекта [M = 8, W = 4, N = 6] (fclk = 330 MHz)
+
+>![TB_data_res_M32](M32_N6_W4_TB_330.png) 
+>Рис. 20. TB for [M = 8, W = 4, N = 6] (fclk = 330 MHz)
+
+>![TB_data_res_M8](M8_N6_W4_TB_330.png) 
+>Рис. 21. TB for [M = 8, W = 4, N = 6] (fclk = 330 MHz)
 
 
 
